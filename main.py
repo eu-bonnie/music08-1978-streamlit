@@ -2,10 +2,12 @@ import streamlit as st
 import pandas as pd
 from datetime import datetime
 
-# Configurações de Página
-st.set_page_config(page_title="Billboard 78", page_icon="🎵", layout="centered")
+# Configurações de título
+st.set_page_config(page_title="Retro & Modern Hits 78", page_icon="🎵", layout="centered")
 
-# CSS para Estilo Spotify Minimalista
+# st.text("Olá mundo!")
+
+# CSS para Estilo da página
 st.markdown("""
 <style>
     body { background-color: #121212; }
@@ -38,8 +40,10 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Título
-st.title("🎧 Billboard Retro: Agosto 1978")
-st.write("Arraste o slider para ver o que tocava em qualquer dia do mês.")
+st.title("🎧 Painel Retro: Agosto 1978")
+st.write("Aqui você pode explorar os maiores sucessos da Billboard Hot nos Estados Unidos durante Agosto de 78")
+st.write("Arraste o slider para ver o que era mais badalado durante as semanas.")
+
 
 # Carregar Dados
 df = pd.read_csv("data/billboard_1978.csv")
