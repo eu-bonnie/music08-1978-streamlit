@@ -1,18 +1,17 @@
-#Billboard Top Hits - Agosto 1978
-##Web App interativo que exibe o ranking histórico da Billboard Hot 100 de agosto de 1978. Projeto focado em visualização de dados e interface minimalista.
+# 📻 Billboard Top Hits - Agosto 1978
 
-#Tecnologias
-Python + Streamlit (Interface)
+**Web App** interativo que exibe o ranking histórico da **Billboard Hot 100**. Um projeto focado em visualização de dados com uma interface minimalista e nostálgica.
 
-Pandas (Tratamento de Dados)
+### 🛠️ Tecnologias
+* **Python + Streamlit**: Construção da interface dinâmica.
+* **Pandas**: Processamento e manipulação da base de dados (CSV).
+* **Anaconda**: Gestão de ambiente virtual e dependências.
 
-Anaconda (Ambiente Virtual)
+### ✨ Funcionalidades
+* 📅 **Filtro Semanal**: Navegação por datas reais da Billboard (Agosto/78).
+* 🌙 **YouTube Dark Mode**: Interface personalizada com a estética do YouTube Music.
+* 🎧 **Alta Disponibilidade**: Links diretos e estáveis para reprodução imediata.
+* 🏆 **Ranking Visual**: Exibição organizada do Top 3 oficial.
 
-##uncionalidades
-Seleção por semana (dados reais da Billboard).
-
-Interface Dark Mode inspirada no YouTube Music.
-
-Links diretos de alta disponibilidade para ouvir as faixas.
 
 Desenvolvido por Sigridd Bonnie
