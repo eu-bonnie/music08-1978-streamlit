@@ -1,0 +1,64 @@
+/* style.css */
+.stApp { 
+    background-color: #030303; 
+    color: white; 
+}
+
+.song-container {
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #282828;
+    transition: background-color 0.2s;
+}
+
+.song-container:hover { 
+    background-color: #1a1a1a; 
+}
+
+.rank-icon {
+    color: #FF0000;
+    font-weight: bold;
+    font-size: 22px;
+    margin-right: 25px;
+    min-width: 40px;
+    text-align: center;
+}
+
+.song-details { flex-grow: 1; }
+
+.song-title { 
+    font-size: 18px; 
+    font-weight: 500; 
+    margin: 0; 
+    color: #ffffff; 
+}
+
+.artist-name { 
+    color: #aaaaaa; 
+    font-size: 14px; 
+    margin: 0; 
+}
+
+.youtube-btn {
+    background-color: #FF0000;
+    color: white !important;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.youtube-btn:hover { 
+    background-color: #cc0000; 
+}
+
+.stSlider > div [data-baseweb="slider"] > div {
+    background-image: linear-gradient(to right, #FF0000 0%, #FF0000 100%);
+}
